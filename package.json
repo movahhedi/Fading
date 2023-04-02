@@ -1,0 +1,43 @@
+{
+	"name": "fading",
+	"version": "0.0.1",
+	"description": "fadeIn & fadeOut HTML elements as a Promise, with ~500 bytes",
+	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/movahhedi/Fading"
+	},
+	"bugs": {
+		"url": "https://github.com/movahhedi/Fading/issues"
+	},
+	"homepage": "https://github.com/movahhedi/Fading#readme",
+	"keywords": [
+		"fade",
+		"fadeIn",
+		"fadeOut",
+		"js",
+		"jquery",
+		"movahhedi"
+	],
+	"type": "module",
+	"source": "index.ts",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+	"devDependencies": {
+		"microbundle": "^0.15.1",
+		"typescript": "^5.0.2"
+	}
+}
