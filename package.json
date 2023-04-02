@@ -1,7 +1,7 @@
 {
 	"name": "fading",
 	"version": "0.0.1",
-	"description": "fadeIn & fadeOut HTML elements as a Promise, with ~500 bytes",
+	"description": "fadeIn & fadeOut HTML elements as a Promise, with ~200 bytes gzipped",
 	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
 	"license": "MIT",
 	"repository": {

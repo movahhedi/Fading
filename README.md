@@ -1,5 +1,5 @@
 # Fading
-fadeIn & fadeOut HTML elements as a Promise, with ~500 bytes.
+fadeIn & fadeOut HTML elements as a Promise, with ~200 bytes gzipped.
 
 ### fadeIn
 ```js
