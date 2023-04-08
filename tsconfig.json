@@ -3,6 +3,7 @@
 		"target": "ES2015",
 		"module": "ES2015",
 		"lib": ["ES2015", "DOM"],
-		"sourceMap": true
+		"sourceMap": true,
+		"esModuleInterop": true
 	}
 }
